@@ -94,7 +94,7 @@ However, if you find this image easier for your needs you can customize it by se
 There are boolean variables that accept some certain case insensitive values:
 
 * **FALSE**: 0, n, no, false
-* **TRUE**: 0, y, yes, true
+* **TRUE**: 1, y, yes, true
 
 Variables:
 
