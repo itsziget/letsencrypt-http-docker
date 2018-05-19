@@ -81,7 +81,7 @@ docker run --rm -it \
     -e LE_EMAIL=youremail@domain.tld \
     -v `pwd`/domains:/domains \
     -v /etc/letsencrypt:/etc/letsencrypt \
-    --network "container:nginx-proxy"
+    --network "container:nginx-proxy" \
     itsziget/letsencrypt-http
 ```
 
@@ -125,7 +125,7 @@ docker run --rm -it \
     -e LE_EMAIL=youremail@domain.tld \
     -v `pwd`/domains:/domains \
     -v /etc/letsencrypt:/etc/letsencrypt \
-    --network "container:nginx-proxy"
+    --network "container:nginx-proxy" \
     itsziget/letsencrypt-http \
   && docker kill -s nginx-proxy
 ```
