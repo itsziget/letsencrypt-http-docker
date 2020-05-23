@@ -1,4 +1,4 @@
-FROM certbot/certbot
+FROM certbot/certbot:v1.4.0
 
 LABEL maintainer="Takács Ákos <rimelek@it-sziget.hu>"
 
