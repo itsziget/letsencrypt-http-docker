@@ -14,7 +14,8 @@ if [ -z "${LE_DRY_RUN}" ]; then
 fi;
 
 toBool () {
-    local BOOL=$(echo "${1}" | tr '[:upper:]' '[:lower:]')
+    local BOOL
+    BOOL=$(echo "${1}" | tr '[:upper:]' '[:lower:]')
     if [ "${BOOL}" == "true" ] || [ "${BOOL}" == "1" ] || [ "${BOOL}" == "yes" ] || [ "${BOOL}" == "y" ]; then
         echo "true"
     elif [ "${BOOL}" == "false" ] || [ "${BOOL}" == "0" ] || [ "${BOOL}" == "no" ] || [ "${BOOL}" == "n" ]; then
