@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/ash
 
 LE_CERT=$1
 
